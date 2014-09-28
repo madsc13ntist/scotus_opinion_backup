@@ -22,9 +22,9 @@ __build__      = ""
 ### Import Modules
 import os			# for directory commands
 import re			# for regex matching of case names
-import time		# for generating the current 2-digit year.
+import time			# for generating the current 2-digit year.
 import hashlib		# part of script's version control (md5/build version)
-import optparse	# parse cmd line options and generate help doc
+import optparse		# parse cmd line options and generate help doc
 import cookielib	# Makes the the scripted browser harder to identify as a script/bot
 import mechanize	# (browser emulation) https://pypi.python.org/pypi/mechanize/
 
