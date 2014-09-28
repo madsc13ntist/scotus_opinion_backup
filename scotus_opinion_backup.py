@@ -187,7 +187,7 @@ if not options.seconds:									# just check for changes once.
 		log.close()
 else:													# Check for changes every n seconds
 	options.seconds = int(options.seconds)				# Make sure user submitted seconds is valid and convert to int.
-	while True:										# Loop forever
+	while True:											# Loop forever
 		changes = checkForChanges(scrapeUrls())			# Check for changes
 		if changes:										# If there are any changes detected...
 			for case in sorted(changes):
