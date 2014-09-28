@@ -1,1 +1,18 @@
-This file was created by PyCharm 2.7.3 for binding GitHub repository
+Inspired by SCOTUS_servo (https://github.com/vzvenyach/scotus-servo)
+
+Usage: scotus_opinion_backup.py [options]
+version 0.0.2, build c3d07e7c618b564c96c60781db4be4a5
+Identify changes in scotus slip opinions.
+Copyright (c) 2014 Joseph Zeranski <madsc13ntist@gmail.com>
+
+Options:
+  -h, --help     show this help message and exit
+  -v, --verbose  Display more information while working.
+  -l LOG_PATH    Specify a file to append log entries to.
+  -d DIR         Specify the dir to store pdfs in.
+  -c SECONDS     Run in a loop. (that sleeps for n seconds between checks).
+  -f YEAR        The earliest year to check for changes.
+  -r REGEX       Only check cases that match a specified regex. (nocase)
+  
+  
+  
